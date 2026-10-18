@@ -48,3 +48,4 @@ Record the commands you run and what each failure means.
 - Backend build command: `npm run build --prefix octofit-tracker/backend` — catches TypeScript or import problems in the logic and data layers.
 - Frontend build command: `npm run build --prefix octofit-tracker/frontend` — confirms the React app compiles and the Vite project is wired correctly.
 - Failure interpretation: if a lower-tier test fails, fix the data model or service first; if the UI fails after the backend is green, the issue is in presentation logic or the API contract assumptions, not the database layer.
+ 
